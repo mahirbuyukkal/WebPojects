@@ -6,10 +6,16 @@
 
 body{
 	background: #f1f1f1;
+	font-family: 'Lato', sans-serif;
+	color: #333;
+	line-height: 135%;
+	font-size: 14px;
 }
 
 h2{
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: 500;
 }
 
 
@@ -26,30 +32,20 @@ h2{
 	width: 25%;	
 	float: left;
 	padding-left: 10px;
-	
-	
 }
 
-#inner-other-posts{
-	position: fixed;
-	top:20px;
-}
-
-#author-box
-{
-	
-}
 
 .box{
-		background: white;
+	background: white;
 	margin-bottom: 15px;
 	padding: 20px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .06);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .blog-post{
 	position: relative;
-	
-
 }
 
 .blog-post img{
@@ -59,36 +55,45 @@ h2{
 .date{
 	position: absolute;
 	right:50px;
-	top: 15px;
+	top: 20px;
+	font-size: 12px;
+	color: #aaa;
 }
-
 .blog-text{
 	margin-top: 15px;
+	color: #aaa;
+	text-align: justify;
+	line-height: 22px;
+	margin-bottom: 15px;
+	font-size: 16px;
 }
-
 .tags li{
 	list-style: none;
 	display: inline;
 	margin-right: 5px;
 }
-
 .tags li a{
 	text-decoration: none;
 }
-
 #author-box{
 	border-top: 1px solid RGB(0,0,0,.125);
 	padding-top: 10px;
 }
-
-
 #author-box img{
 	border-radius: 50%;
 	float: left;
 }
-
 .author-text{
 	float: left;
 	margin-top: 50px;
 	margin-left: 20px;
+}
+#share a{
+	color: gray;
+	text-decoration: none;
+	margin-right: 12px;
+	opacity: 0.9;
+}
+#share a:hover{
+	opacity: 0.6;
 }
