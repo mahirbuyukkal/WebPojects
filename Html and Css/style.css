@@ -1,99 +1,138 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body{
-	background: #f1f1f1;
+body {
 	font-family: 'Lato', sans-serif;
+	font-size: 14px;
 	color: #333;
 	line-height: 135%;
-	font-size: 14px;
+	background: #f1f1f1;
 }
 
-h2{
-	margin-bottom: 20px;
+h2 {
 	font-size: 30px;
+	margin-bottom: 20px;
 	font-weight: 500;
 }
 
-
-#container{
+#container {
 	width: 1140px;
 	margin: 20px auto;
 }
-#blog-post-container{
-	width: 75%;	
+
+#blog-post-container {
+	width: 75%;
 	float: left;
 }
 
-#other-posts{
-	width: 25%;	
+#other-posts {
+	width: 25%;
 	float: left;
 	padding-left: 10px;
 }
 
+#author-box {}
 
-.box{
+.box {
 	background: white;
 	margin-bottom: 15px;
 	padding: 20px;
-	box-shadow: 0 0 0 1px rgba(0, 0, 0, .06);
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.06);
+	
 }
 
-.blog-post{
+.blog-post {
 	position: relative;
 }
 
-.blog-post img{
+.blog-post img {
 	width: 100%;
 }
 
-.date{
+.date {
 	position: absolute;
-	right:50px;
+	right: 50px;
 	top: 20px;
+	color: #aaa;
 	font-size: 12px;
-	color: #aaa;
 }
-.blog-text{
+
+.blog-text {
 	margin-top: 15px;
-	color: #aaa;
-	text-align: justify;
-	line-height: 22px;
 	margin-bottom: 15px;
 	font-size: 16px;
+	color: #aaa;
+	line-height: 22px;
+	text-align: justify;
 }
-.tags li{
+
+.tags li {
 	list-style: none;
 	display: inline;
 	margin-right: 5px;
 }
-.tags li a{
+
+.tags li a {
 	text-decoration: none;
 }
-#author-box{
-	border-top: 1px solid RGB(0,0,0,.125);
+
+#author-box {
+	border-top: 1px solid RGB(0, 0, 0, .125);
 	padding-top: 10px;
 }
-#author-box img{
+
+
+#author-box img {
 	border-radius: 50%;
 	float: left;
 }
-.author-text{
+
+.author-text {
 	float: left;
 	margin-top: 50px;
 	margin-left: 20px;
 }
+
 #share a{
-	color: gray;
+	color:gray;
 	text-decoration: none;
 	margin-right: 12px;
 	opacity: 0.9;
 }
+
 #share a:hover{
 	opacity: 0.6;
 }
+
+ul{
+	list-style-type: none;	
+}
+
+ul li{
+	margin-bottom: 10px;
+}
+
+.header{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+
+.tag{
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+
+
+
