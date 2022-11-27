@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+	<title>My Project</title>
+	<style>
+		#nesne {	
+			position: absolute;
+			width: 100px;
+			transition: all .2s;
+		}
+		.btn-success{
+			width: 100px;
+			position: relative;
+			right: 13%;
+		}
+
+		.card {
+			width: 50%;
+			margin: auto;
+			
+		}
+		.box{
+			position: relative;
+		}
+	</style>
+</head>
+
+<body class="p-5">
+
+	<div class="card text-center">
+		<div class="card-header">
+			Featured
+		</div>
+		<div class="card-body" id="cardB">
+			<h5 class="card-title">Zahirokur sayfasını beğeniyor musunuz?</h5>
+			<p class="card-text text-bold"></p>
+			<div class="btn-container p-3">
+				
+				
+				<div class="box">
+					<button id="second" class="btn btn-success text-white">Evet</button>
+					<button id="nesne" class="btn btn-danger text-white">Hayır</button>
+				</div>
+				
+				
+			</div>
+
+		</div>
+		<div class="card-footer text-muted">
+			Now
+		</div>
+	</div>
+
+
+
+	<script>
+		var sayac = 0;
+		var nesne = document.getElementById("nesne");
+
+		nesne.onmouseover = function (e) {
+			sayac++;
+			var xpos = parseInt(Math.random() * 1000);
+
+			nesne.style.left = xpos + "px";
+		}
+		second.onclick = function () {
+			window.alert("Ben de öyle düşünmüştüm :)");
+		}
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
